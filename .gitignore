@@ -1,0 +1,90 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+.trash/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+venv*/
+
+# Environment files (keep env.example tracked)
+.env
+*.env
+.env.*
+
+# Packaging / Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage / Testing
+.coverage
+.coverage.*
+htmlcov/
+reports/
+pytest_cache/
+
+# IDE / Tools
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Data artifacts
+/data/raw/
+/data/processed/
+/data/models/
+
+# Models & checkpoints
+models/
+checkpoints/
+
+# Database dumps / local state
+*.sqlite3
+*.db
+*.mdb
+*.bak
+
+# Node (if any)
+node_modules/
+
+# Project-specific tooling (Cursor agent outputs, etc.)
+.cursor/
+.agent-tools/
+
+# Secrets (pattern-based; keep examples tracked)
+secret*/
+api_keys*/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Memory bank
+memory-bank/
+
+# Cursor
+.cursor/
+
+# Documentation
+doc/
+doc.zip
