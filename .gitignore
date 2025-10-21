@@ -54,7 +54,6 @@ logs/
 /data/models/
 
 # Models & checkpoints
-models/
 checkpoints/
 
 # Database dumps / local state
